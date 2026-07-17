@@ -49,3 +49,10 @@ int current_sum = 0;
         current_sum += (c - '0');
     }
 
+abs() er kaj holo neg num k positive kora r positive num k tik tik reke dewa c++ er ketre 
+eta hosse jodi 2 ta score er modde jodi kew ekjn 3 score korte pare taile tar total jodi oporjoner teke veshi hoi ortat 3 point pele jodi se jite jai tahole yes
+if (abs(X - Y) < 3){
+    cout << "Yes" << endl;
+  }
+  else{
+    cout << "No" << endl;
