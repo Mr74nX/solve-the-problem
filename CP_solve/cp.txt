@@ -35,4 +35,6 @@ N/=10
 #পিরামিড বা ট্রায়াঙ্গুলার নম্বরের যোগফল
 N*(N+1) * (N+2)/6
 
+#float define
+cout << fixed << setprecision << your_ans << endl;
 
