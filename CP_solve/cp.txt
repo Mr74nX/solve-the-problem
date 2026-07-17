@@ -1,1 +1,11 @@
-#cp
+#১ থেকে N পর্যন্ত সব সংখ্যার যোগফল formula 
+total= N*(N+1)/2
+
+#১ থেকে N এর মধ্যে শুধু (Even) সংখ্যার যোগফল
+even-count= (N/2)
+even-sum= even-count*(even-count+1)
+
+#১ থেকে N এর মধ্যে শুধু (Odd) সংখ্যার যোগফল
+odd-count= (N+1)/2
+odd-Sum= (odd-count*odd-count)
+
