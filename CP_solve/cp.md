@@ -88,3 +88,10 @@ if (abs(X - Y) < 3) {
 
 C++ এ কোনো স্ট্রিং-এর শেষ অক্ষরটি পেতে আমরা S.back() অথবা S[S.length() - 1] ব্যবহার করতে পারি।
 
+last koita string cut korbe tar jonno
+int len = S.length();
+    
+    // শেষ ৩টি অক্ষর কেটে এনে 'ist' এর সাথে মেলানো
+    if (len >= 3 && S.substr(len - 3) == "ist")
+ekane s.substr(s.size() - 3) er kaj
+শব্দটি যত বড়ই হোক না কেন (যেমন: tourist, artist বা specialist), আপনি যখনই লিখবেন S.substr(len - 3), কম্পিউটার সবসময় ওই শব্দের একেবারে শেষ ৩টি অক্ষর কেটে বের করে নিয়ে আসবে।
