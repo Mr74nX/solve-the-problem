@@ -38,5 +38,5 @@ N*(N+1) * (N+2)/6
 #float define
 cout << fixed << setprecision << your_ans << endl;
 #garir fuel consume ber korar formula
-Liters = Spent_Time * Average_Speed / 12.0
+Liters = Spent_Time * Average_Speed / 12.0 --- 1 litter e joto km jabe ta die division ortat 1 litter e jodi 12km hoi tahole 12 die divide
 
