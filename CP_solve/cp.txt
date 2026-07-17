@@ -27,6 +27,11 @@ N*(N+1)*(2N+1)
 #জ্যামিতিক ধারা বা গুণোত্তর প্রগতি (Geometric)
 sum= a*(r^n-1/r-1)
 
+#collect last number
+last= N%10
+
+#cut last number
+N/=10
 #পিরামিড বা ট্রায়াঙ্গুলার নম্বরের যোগফল
 N*(N+1) * (N+2)/6
 
