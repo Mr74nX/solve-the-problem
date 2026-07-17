@@ -40,3 +40,12 @@ cout << fixed << setprecision << your_ans << endl;
 #garir fuel consume ber korar formula
 Liters = Spent_Time * Average_Speed / 12.0 --- 1 litter e joto km jabe ta die division ortat 1 litter e jodi 12km hoi tahole 12.0 die divide hobe, cause int and float er modde hisab korbo tkn e .0 dite hobe sotik man er jonno.
 
+#স্ট্রিংয়ের প্রতিটি ক্যারেক্টারকে সংখ্যায় রূপান্তর করে যোগ করা
+(c - '0') charecter k number e rupantor korar formula. ascii valu teke - '0'
+loop er maddome eta 
+
+int current_sum = 0;
+    for (char c : S) {
+        current_sum += (c - '0');
+    }
+
