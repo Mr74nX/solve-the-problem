@@ -1,5 +1,5 @@
 #১ থেকে N পর্যন্ত সব সংখ্যার যোগফল formula 
-total= N*(N+1)/2
+`total= N*(N+1)/2`
 
 #১ থেকে N এর মধ্যে শুধু (Even) সংখ্যার যোগফল
 even-count= (N/2)
@@ -49,7 +49,7 @@ int current_sum = 0;
         current_sum += (c - '0');
     }
 
-abs() er kaj holo neg num k positive kora r positive num k tik tik reke dewa c++ er ketre 
+abs() ortat ( absulate value ) er kaj holo neg num k positive kora r positive num k tik tik reke dewa c++ er ketre 
 eta hosse jodi 2 ta score er modde jodi kew ekjn 3 score korte pare taile tar total jodi oporjoner teke veshi hoi ortat 3 point pele jodi se jite jai tahole yes
 if (abs(X - Y) < 3){
     cout << "Yes" << endl;
