@@ -97,3 +97,4 @@ ekane s.substr(s.size() - 3) er kaj
 শব্দটি যত বড়ই হোক না কেন (যেমন: tourist, artist বা specialist), আপনি যখনই লিখবেন S.substr(len - 3), কম্পিউটার সবসময় ওই শব্দের একেবারে শেষ ৩টি অক্ষর কেটে বের করে নিয়ে আসবে।
 
 Distance to the Next Multiple
+100 - (X % 100)
